@@ -1,0 +1,313 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   'gulp-cli' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'gulp-cli', null ]
+5 verbose cache add name=undefined spec="gulp-cli" args=["gulp-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'gulp-cli',
+6 verbose parsed url   path: 'gulp-cli',
+6 verbose parsed url   href: 'gulp-cli' }
+7 silly lockFile e23a8be8-gulp-cli gulp-cli
+8 verbose lock gulp-cli /home/anna/.npm/e23a8be8-gulp-cli.lock
+9 silly lockFile e23a8be8-gulp-cli gulp-cli
+10 silly lockFile e23a8be8-gulp-cli gulp-cli
+11 verbose addNamed [ 'gulp-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile dd34a9c8-gulp-cli gulp-cli@
+14 verbose lock gulp-cli@ /home/anna/.npm/dd34a9c8-gulp-cli.lock
+15 silly addNameRange { name: 'gulp-cli', range: '*', hasData: false }
+16 verbose url raw gulp-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-cli' ]
+18 verbose url resolved https://registry.npmjs.org/gulp-cli
+19 info trying registry request attempt 1 at 16:03:05
+20 http GET https://registry.npmjs.org/gulp-cli
+21 http 200 https://registry.npmjs.org/gulp-cli
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'nginx/1.10.1',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'last-modified': 'Thu, 05 Oct 2017 15:08:38 GMT',
+22 silly registry.get     etag: '"59d64af6-93e1"',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '37857',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Wed, 11 Oct 2017 13:03:07 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '1',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-bma7021-BMA',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1507726987.556555,VS0,VE1099',
+22 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+23 silly addNameRange number 2 { name: 'gulp-cli', range: '*', hasData: true }
+24 silly addNameRange versions [ 'gulp-cli',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.2.2',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.4.0' ] ]
+25 verbose addNamed [ 'gulp-cli', '1.4.0' ]
+26 verbose addNamed [ '1.4.0', '1.4.0' ]
+27 silly lockFile 3d77c119-gulp-cli-1-4-0 gulp-cli@1.4.0
+28 verbose lock gulp-cli@1.4.0 /home/anna/.npm/3d77c119-gulp-cli-1-4-0.lock
+29 silly lockFile 626ec933--org-gulp-cli-gulp-cli-1-4-0-tgz https://registry.npmjs.org/gulp-cli/-/gulp-cli-1.4.0.tgz
+30 verbose lock https://registry.npmjs.org/gulp-cli/-/gulp-cli-1.4.0.tgz /home/anna/.npm/626ec933--org-gulp-cli-gulp-cli-1-4-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-cli/-/gulp-cli-1.4.0.tgz',
+31 verbose addRemoteTarball   '6f5bbe2cd0bdb4849d12cf9e1246a5861f8b4f88' ]
+32 info retry fetch attempt 1 at 16:03:07
+33 verbose fetch to= /home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/tmp.tgz
+34 http GET https://registry.npmjs.org/gulp-cli/-/gulp-cli-1.4.0.tgz
+35 http 200 https://registry.npmjs.org/gulp-cli/-/gulp-cli-1.4.0.tgz
+36 verbose tar unpack /home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/tmp.tgz
+37 silly lockFile 28464d64-87145-0-7422157812397927-package tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/package
+38 verbose lock tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/package /home/anna/.npm/28464d64-87145-0-7422157812397927-package.lock
+39 silly lockFile 23b11eb9-87145-0-7422157812397927-tmp-tgz tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/tmp.tgz
+40 verbose lock tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/tmp.tgz /home/anna/.npm/23b11eb9-87145-0-7422157812397927-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry LICENSE
+45 silly gunzTarPerm extractEntry index.js
+46 silly gunzTarPerm extractEntry CHANGELOG.md
+47 silly gunzTarPerm extractEntry bin/gulp.js
+48 silly gunzTarPerm extractEntry completion/README.md
+49 silly gunzTarPerm extractEntry completion/bash
+50 silly gunzTarPerm extractEntry completion/fish
+51 silly gunzTarPerm extractEntry completion/powershell
+52 silly gunzTarPerm extractEntry completion/zsh
+53 silly gunzTarPerm extractEntry gulp.1
+54 silly gunzTarPerm extractEntry lib/shared/cliOptions.js
+55 silly gunzTarPerm extractEntry lib/shared/registerExports.js
+56 silly gunzTarPerm extractEntry lib/shared/exit.js
+57 silly gunzTarPerm extractEntry lib/shared/getBlacklist.js
+58 silly gunzTarPerm extractEntry lib/shared/completion.js
+59 silly gunzTarPerm extractEntry lib/shared/is-number.js
+60 silly gunzTarPerm extractEntry lib/shared/is-string.js
+61 silly gunzTarPerm extractEntry lib/shared/verifyDependencies.js
+62 silly gunzTarPerm extractEntry lib/shared/is-array.js
+63 silly gunzTarPerm extractEntry lib/shared/log/blacklistError.js
+64 silly gunzTarPerm extractEntry lib/shared/log/copy-tree.js
+65 silly gunzTarPerm extractEntry lib/shared/log/tasks.js
+66 silly gunzTarPerm extractEntry lib/shared/log/toConsole.js
+67 silly gunzTarPerm extractEntry lib/shared/log/verify.js
+68 silly gunzTarPerm extractEntry lib/shared/config/cli-flags.js
+69 silly gunzTarPerm extractEntry lib/shared/config/env-flags.js
+70 silly gunzTarPerm extractEntry lib/shared/config/load-files.js
+71 silly gunzTarPerm extractEntry lib/versioned/^3.7.0/formatError.js
+72 silly gunzTarPerm extractEntry lib/versioned/^3.7.0/index.js
+73 silly gunzTarPerm extractEntry lib/versioned/^3.7.0/taskTree.js
+74 silly gunzTarPerm extractEntry lib/versioned/^3.7.0/log/events.js
+75 silly gunzTarPerm extractEntry lib/versioned/^3.7.0/log/tasksSimple.js
+76 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/formatError.js
+77 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/index.js
+78 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/log/events.js
+79 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/log/getTask.js
+80 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/log/syncTask.js
+81 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/log/tasksSimple.js
+82 silly gunzTarPerm extractEntry lib/versioned/^4.0.0-alpha.1/index.js
+83 silly gunzTarPerm extractEntry lib/versioned/^4.0.0-alpha.2/index.js
+84 silly lockFile 28464d64-87145-0-7422157812397927-package tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/package
+85 silly lockFile 28464d64-87145-0-7422157812397927-package tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/package
+86 silly lockFile 23b11eb9-87145-0-7422157812397927-tmp-tgz tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/tmp.tgz
+87 silly lockFile 23b11eb9-87145-0-7422157812397927-tmp-tgz tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/tmp.tgz
+88 verbose tar pack [ '/home/anna/.npm/gulp-cli/1.4.0/package.tgz',
+88 verbose tar pack   '/home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/package' ]
+89 verbose tarball /home/anna/.npm/gulp-cli/1.4.0/package.tgz
+90 verbose folder /home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/package
+91 silly lockFile 28464d64-87145-0-7422157812397927-package tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/package
+92 verbose lock tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/package /home/anna/.npm/28464d64-87145-0-7422157812397927-package.lock
+93 silly lockFile a391f5a2-a-npm-gulp-cli-1-4-0-package-tgz tar:///home/anna/.npm/gulp-cli/1.4.0/package.tgz
+94 verbose lock tar:///home/anna/.npm/gulp-cli/1.4.0/package.tgz /home/anna/.npm/a391f5a2-a-npm-gulp-cli-1-4-0-package-tgz.lock
+95 silly lockFile 28464d64-87145-0-7422157812397927-package tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/package
+96 silly lockFile 28464d64-87145-0-7422157812397927-package tar:///home/anna/tmp/npm-23592-oT_Wf3S_/1507726987145-0.7422157812397927/package
+97 silly lockFile a391f5a2-a-npm-gulp-cli-1-4-0-package-tgz tar:///home/anna/.npm/gulp-cli/1.4.0/package.tgz
+98 silly lockFile a391f5a2-a-npm-gulp-cli-1-4-0-package-tgz tar:///home/anna/.npm/gulp-cli/1.4.0/package.tgz
+99 silly lockFile 72a730fd--anna-npm-gulp-cli-1-4-0-package /home/anna/.npm/gulp-cli/1.4.0/package
+100 verbose lock /home/anna/.npm/gulp-cli/1.4.0/package /home/anna/.npm/72a730fd--anna-npm-gulp-cli-1-4-0-package.lock
+101 silly lockFile 72a730fd--anna-npm-gulp-cli-1-4-0-package /home/anna/.npm/gulp-cli/1.4.0/package
+102 silly lockFile 72a730fd--anna-npm-gulp-cli-1-4-0-package /home/anna/.npm/gulp-cli/1.4.0/package
+103 verbose tar unpack /home/anna/.npm/gulp-cli/1.4.0/package.tgz
+104 silly lockFile 6bde9235--anna-npm-gulp-cli-1-4-0-package tar:///home/anna/.npm/gulp-cli/1.4.0/package
+105 verbose lock tar:///home/anna/.npm/gulp-cli/1.4.0/package /home/anna/.npm/6bde9235--anna-npm-gulp-cli-1-4-0-package.lock
+106 silly lockFile a391f5a2-a-npm-gulp-cli-1-4-0-package-tgz tar:///home/anna/.npm/gulp-cli/1.4.0/package.tgz
+107 verbose lock tar:///home/anna/.npm/gulp-cli/1.4.0/package.tgz /home/anna/.npm/a391f5a2-a-npm-gulp-cli-1-4-0-package-tgz.lock
+108 silly gunzTarPerm modes [ '755', '644' ]
+109 silly gunzTarPerm extractEntry package.json
+110 silly gunzTarPerm extractEntry README.md
+111 silly gunzTarPerm extractEntry index.js
+112 silly gunzTarPerm extractEntry bin/gulp.js
+113 silly gunzTarPerm extractEntry completion/README.md
+114 silly gunzTarPerm extractEntry completion/bash
+115 silly gunzTarPerm extractEntry completion/fish
+116 silly gunzTarPerm extractEntry completion/powershell
+117 silly gunzTarPerm extractEntry completion/zsh
+118 silly gunzTarPerm extractEntry gulp.1
+119 silly gunzTarPerm extractEntry lib/shared/cliOptions.js
+120 silly gunzTarPerm extractEntry lib/shared/registerExports.js
+121 silly gunzTarPerm extractEntry lib/shared/exit.js
+122 silly gunzTarPerm extractEntry lib/shared/getBlacklist.js
+123 silly gunzTarPerm extractEntry lib/shared/completion.js
+124 silly gunzTarPerm extractEntry lib/shared/is-number.js
+125 silly gunzTarPerm extractEntry lib/shared/is-string.js
+126 silly gunzTarPerm extractEntry lib/shared/verifyDependencies.js
+127 silly gunzTarPerm extractEntry lib/shared/is-array.js
+128 silly gunzTarPerm extractEntry lib/shared/log/blacklistError.js
+129 silly gunzTarPerm extractEntry lib/shared/log/copy-tree.js
+130 silly gunzTarPerm extractEntry lib/shared/log/tasks.js
+131 silly gunzTarPerm extractEntry lib/shared/log/toConsole.js
+132 silly gunzTarPerm extractEntry lib/shared/log/verify.js
+133 silly gunzTarPerm extractEntry lib/shared/config/cli-flags.js
+134 silly gunzTarPerm extractEntry lib/shared/config/env-flags.js
+135 silly gunzTarPerm extractEntry lib/shared/config/load-files.js
+136 silly gunzTarPerm extractEntry lib/versioned/^3.7.0/formatError.js
+137 silly gunzTarPerm extractEntry lib/versioned/^3.7.0/index.js
+138 silly gunzTarPerm extractEntry lib/versioned/^3.7.0/taskTree.js
+139 silly gunzTarPerm extractEntry lib/versioned/^3.7.0/log/events.js
+140 silly gunzTarPerm extractEntry lib/versioned/^3.7.0/log/tasksSimple.js
+141 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/formatError.js
+142 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/index.js
+143 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/log/events.js
+144 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/log/getTask.js
+145 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/log/syncTask.js
+146 silly gunzTarPerm extractEntry lib/versioned/^4.0.0/log/tasksSimple.js
+147 silly gunzTarPerm extractEntry lib/versioned/^4.0.0-alpha.1/index.js
+148 silly gunzTarPerm extractEntry lib/versioned/^4.0.0-alpha.2/index.js
+149 silly lockFile 6bde9235--anna-npm-gulp-cli-1-4-0-package tar:///home/anna/.npm/gulp-cli/1.4.0/package
+150 silly lockFile 6bde9235--anna-npm-gulp-cli-1-4-0-package tar:///home/anna/.npm/gulp-cli/1.4.0/package
+151 silly lockFile a391f5a2-a-npm-gulp-cli-1-4-0-package-tgz tar:///home/anna/.npm/gulp-cli/1.4.0/package.tgz
+152 silly lockFile a391f5a2-a-npm-gulp-cli-1-4-0-package-tgz tar:///home/anna/.npm/gulp-cli/1.4.0/package.tgz
+153 verbose chmod /home/anna/.npm/gulp-cli/1.4.0/package.tgz 644
+154 verbose chown /home/anna/.npm/gulp-cli/1.4.0/package.tgz [ 1000, 1000 ]
+155 silly lockFile 626ec933--org-gulp-cli-gulp-cli-1-4-0-tgz https://registry.npmjs.org/gulp-cli/-/gulp-cli-1.4.0.tgz
+156 silly lockFile 626ec933--org-gulp-cli-gulp-cli-1-4-0-tgz https://registry.npmjs.org/gulp-cli/-/gulp-cli-1.4.0.tgz
+157 silly lockFile 3d77c119-gulp-cli-1-4-0 gulp-cli@1.4.0
+158 silly lockFile 3d77c119-gulp-cli-1-4-0 gulp-cli@1.4.0
+159 silly lockFile dd34a9c8-gulp-cli gulp-cli@
+160 silly lockFile dd34a9c8-gulp-cli gulp-cli@
+161 silly resolved [ { name: 'gulp-cli',
+161 silly resolved     version: '1.4.0',
+161 silly resolved     description: 'Command line interface for gulp',
+161 silly resolved     author:
+161 silly resolved      { name: 'Gulp Team',
+161 silly resolved        email: 'team@gulpjs.com',
+161 silly resolved        url: 'http://gulpjs.com/' },
+161 silly resolved     contributors: [],
+161 silly resolved     homepage: 'http://gulpjs.com',
+161 silly resolved     repository: { type: 'git', url: 'git://github.com/gulpjs/gulp-cli' },
+161 silly resolved     license: 'MIT',
+161 silly resolved     man: [ 'gulp.1' ],
+161 silly resolved     engines: { node: '>= 0.10' },
+161 silly resolved     main: 'index.js',
+161 silly resolved     bin: { gulp: 'bin/gulp.js' },
+161 silly resolved     files: [ 'index.js', 'lib', 'bin', 'completion', 'gulp.1' ],
+161 silly resolved     scripts:
+161 silly resolved      { lint: 'eslint . && jscs index.js bin/ lib/ test/',
+161 silly resolved        prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+161 silly resolved        pretest: 'npm run lint',
+161 silly resolved        test: 'mocha --async-only --timeout 3000 test/lib test',
+161 silly resolved        cover: 'nyc --reporter=lcov --reporter=text-summary npm test',
+161 silly resolved        coveralls: 'nyc --reporter=text-lcov npm test | coveralls',
+161 silly resolved        changelog: 'github-changes -o gulpjs -r gulp-cli -b master -f ./CHANGELOG.md --order-semver --use-commit-body' },
+161 silly resolved     dependencies:
+161 silly resolved      { archy: '^1.0.0',
+161 silly resolved        chalk: '^1.1.0',
+161 silly resolved        'copy-props': '^1.4.1',
+161 silly resolved        'fancy-log': '^1.1.0',
+161 silly resolved        gulplog: '^1.0.0',
+161 silly resolved        interpret: '^1.0.0',
+161 silly resolved        liftoff: '^2.3.0',
+161 silly resolved        'lodash.isfunction': '^3.0.8',
+161 silly resolved        'lodash.isplainobject': '^4.0.4',
+161 silly resolved        'lodash.sortby': '^4.5.0',
+161 silly resolved        matchdep: '^1.0.0',
+161 silly resolved        'mute-stdout': '^1.0.0',
+161 silly resolved        'pretty-hrtime': '^1.0.0',
+161 silly resolved        'semver-greatest-satisfied-range': '^1.0.0',
+161 silly resolved        tildify: '^1.0.0',
+161 silly resolved        v8flags: '^2.0.9',
+161 silly resolved        wreck: '^6.3.0',
+161 silly resolved        yargs: '^3.28.0' },
+161 silly resolved     devDependencies:
+161 silly resolved      { 'babel-preset-es2015': '^6.5.0',
+161 silly resolved        'babel-register': '^6.5.1',
+161 silly resolved        coveralls: '^2.7.0',
+161 silly resolved        eslint: '^1.7.3',
+161 silly resolved        'eslint-config-gulp': '^2.0.0',
+161 silly resolved        expect: '^1.20.2',
+161 silly resolved        'fs-extra': '^0.26.1',
+161 silly resolved        'github-changes': '^1.0.1',
+161 silly resolved        gulp: 'gulpjs/gulp#4.0',
+161 silly resolved        'gulp-test-tools': '^0.6.1',
+161 silly resolved        jscs: '^2.3.5',
+161 silly resolved        'jscs-preset-gulp': '^1.0.0',
+161 silly resolved        'marked-man': '^0.1.3',
+161 silly resolved        mocha: '^3.2.0',
+161 silly resolved        nyc: '^10.0.0' },
+161 silly resolved     keywords: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+161 silly resolved     readme: '<p align="center">\n  <a href="http://gulpjs.com">\n    <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">\n  </a>\n</p>\n\n# gulp-cli\n\n[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![AppVeyor Build Status][appveyor-image]][appveyor-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Gitter chat][gitter-image]][gitter-url]\n\nCommand Line Utility for Gulp\n\n## Usage\n\n```bash\n> gulp [flags] <task> <task>...\n```\n\n## Custom Metadata\n\nWhen listing tasks with the `gulp -T` command, gulp-cli displays some custom metadata as defined upon task functions. Currently supported properties:\n\n* `task.description` - String of the description to display.\n\n```js\nfunction clean() { ... }\nclean.description = \'Cleans up generated files.\';\n```\n\n* `task.flags` - Object with key/value pairs being flag/description to display.\n\n```js\nfunction build() { ... }\nbuild.flags = {\n  \'--prod\': \'Builds in production mode.\'\n};\n```\n\nExample Usage:\n\n```js\nfunction build() { ... }\nbuild.description = \'Build entire project.\';\nbuild.flags = {\n  \'--prod\': \'Builds in production mode (minification, etc).\'\n};\n// gulp 3.x\ngulp.task(\'build\', build);\n// gulp 4.x\ngulp.task(build);\n```\n\n## Tasks\n\nThe task(s) listed on the command line will be executed.\nIf more than one task is listed, Gulp will execute all of them\nconcurrently, that is, as if they had all been listed as dependencies of\na single task.\n\nGulp does not serialize tasks listed on the command line. From using\nother comparable tools users may expect to execute something like\n`gulp clean build`, with tasks named `clean` and `build`. This will not\nproduce the intended result, as the two tasks will be executed\nconcurrently.\n\nJust running `gulp` will execute the task `default`. If there is no\n`default` task, gulp will error.\n\n## Completion\n> Thanks to the grunt team, specifically Tyler Kellen\n\nTo enable tasks auto-completion in shell you should add `eval "$(gulp --completion=shell)"` in your `.shellrc` file.\n\n###### Bash:\n\nAdd `eval "$(gulp --completion=bash)"` to `~/.bashrc`.\n\n###### Zsh:\n\nAdd `eval "$(gulp --completion=zsh)"` to `~/.zshrc`.\n\n###### Powershell:\n\nAdd `Invoke-Expression ((gulp --completion=powershell) -join [System.Environment]::NewLine)` to `$PROFILE`.\n\n###### Fish:\n\nAdd `gulp --completion=fish | source` to `~/.config/fish/config.fish`.\n\n## Compilers\n\nYou can find a list of supported languages at https://github.com/js-cli/js-interpret. If you would like to add support for a new language, send pull requests/open issues on that project.\n\n## Environment\n\nThe CLI adds process.env.INIT_CWD which is the original cwd it was launched from.\n\n## Configuration\n\nConfiguration is supported through the use of a `.gulp.*` file (e.g. `.gulp.json`, `.gulp.yml`). You can find a list of supported languages at https://github.com/js-cli/js-interpret.\n\nConfiguration from the home directory (`~`) and current working directory (`cwd`) are merged with `cwd` taking precedence.\n\nSupported configurations properties:\n\n| Property           | Description |\n|--------------------|-------------|\n| description        | Top-level description of the project/gulpfile (Replaces "Tasks for ~/path/of/gulpfile.js") |\n| flags.continue     | Continue execution of tasks upon failure by default. |\n| flags.compactTasks | Reduce the output of task dependency tree by default. |\n| flags.tasksDepth   | Set default depth of task dependency tree. |\n| flags.gulpfile     | Set a default gulpfile |\n| flags.silent       | Silence logging by default |\n\n## Flags\n\ngulp has very few flags to know about. All other flags are for tasks to use if needed.\n\n__Some flags only work with gulp 4 and will be ignored when invoked against gulp 3.__\n\n<table>\n  <thead>\n    <tr>\n      <th width="25%">Flag</th>\n      <th width="15%">Short Flag</th>\n      <th>Description</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>--help</td>\n      <td>-h</td>\n      <td>Show this help.</td>\n    </tr>\n    <tr>\n      <td>--version</td>\n      <td>-v</td>\n      <td>Print the global and local gulp versions.</td>\n    </tr>\n    <tr>\n      <td>--require [path]</td>\n      <td></td>\n      <td>Will require a module before running the gulpfile. This is useful for transpilers but also has other applications.</td>\n    </tr>\n    <tr>\n      <td>--gulpfile [path]</td>\n      <td></td>\n      <td>Manually set path of gulpfile. Useful if you have multiple gulpfiles. This will set the CWD to the gulpfile directory as well.</td>\n    </tr>\n    <tr>\n      <td>--cwd [path]</td>\n      <td></td>\n      <td>Manually set the CWD. The search for the gulpfile, as well as the relativity of all requires will be from here.</td>\n    </tr>\n    <tr>\n      <td>--verify [path (optional)]</td>\n      <td></td>\n      <td>Will verify plugins referenced in project\'s package.json against the plugins blacklist.</td>\n    </tr>\n    <tr>\n      <td>--tasks</td>\n      <td>-T</td>\n      <td>Print the task dependency tree for the loaded gulpfile.</td>\n    </tr>\n    <tr>\n      <td>--tasks-simple</td>\n      <td></td>\n      <td>Print a plaintext list of tasks for the loaded gulpfile.</td>\n    </tr>\n    <tr>\n      <td>--tasks-json [path]</td>\n      <td></td>\n      <td>Print the task dependency tree, in JSON format, for the loaded gulpfile. The [path] argument is optional, and if given writes the JSON to the path.</td>\n    </tr>\n    <tr>\n      <td>--tasks-depth [number]</td>\n      <td></td>\n      <td>Specify the depth of the task dependency tree to print. This flag can be used with --tasks or --tasks-json. (This flag was named --depth before but is deprecated.)</td>\n    </tr>\n    <tr>\n      <td>--compact-tasks</td>\n      <td></td>\n      <td>Reduce the output of task dependency tree by printing only top tasks and their child tasks. This flag can be used with --tasks or --tasks-json.</td>\n    </tr>\n    <tr>\n      <td>--sort-tasks</td>\n      <td></td>\n      <td>Will sort top tasks of task dependency tree. This flag can be used with --tasks.</td>\n    </tr>\n    <tr>\n      <td>--color</td>\n      <td></td>\n      <td>Will force gulp and gulp plugins to display colors, even when no color support is detected.</td>\n    </tr>\n    <tr>\n      <td>--no-color</td>\n      <td></td>\n      <td>Will force gulp and gulp plugins to not display colors, even when color support is detected.</td>\n    </tr>\n    <tr>\n      <td>--silent</td>\n      <td>-S</td>\n      <td>Suppress all gulp logging.</td>\n    </tr>\n    <tr>\n      <td>--continue</td>\n      <td></td>\n      <td>Continue execution of tasks upon failure.</td>\n    </tr>\n    <tr>\n      <td>--log-level</td>\n      <td>-L</td>\n      <td>Set the loglevel. -L for least verbose and -LLLL for most verbose. -LLL is default.</td>\n    </tr>\n  </tbody>\n</table>\n\n## License\n\nMIT\n\n[gittip-url]: https://www.gittip.com/WeAreFractal/\n[gittip-image]: http://img.shields.io/gittip/WeAreFractal.svg\n\n[downloads-image]: http://img.shields.io/npm/dm/gulp-cli.svg\n[npm-url]: https://npmjs.org/package/gulp-cli\n[npm-image]: http://img.shields.io/npm/v/gulp-cli.svg\n\n[travis-url]: https://travis-ci.org/gulpjs/gulp-cli\n[travis-image]: http://img.shields.io/travis/gulpjs/gulp-cli.svg?label=travis-ci\n\n[appveyor-url]: https://ci.appveyor.com/project/gulpjs/gulp-cli\n[appveyor-image]: https://img.shields.io/appveyor/ci/gulpjs/gulp-cli.svg?label=appveyor\n\n[coveralls-url]: https://coveralls.io/r/gulpjs/gulp-cli\n[coveralls-image]: http://img.shields.io/coveralls/gulpjs/gulp-cli/master.svg\n\n[gitter-url]: https://gitter.im/gulpjs/gulp\n[gitter-image]: https://badges.gitter.im/gulpjs/gulp.png\n',
+161 silly resolved     readmeFilename: 'README.md',
+161 silly resolved     bugs: { url: 'https://github.com/gulpjs/gulp-cli/issues' },
+161 silly resolved     _id: 'gulp-cli@1.4.0',
+161 silly resolved     dist: { shasum: 'fa63ea63cc6aa41f1aa02bf859ac98edff2e40ec' },
+161 silly resolved     _from: 'gulp-cli@',
+161 silly resolved     _resolved: 'https://registry.npmjs.org/gulp-cli/-/gulp-cli-1.4.0.tgz' } ]
+162 info install gulp-cli@1.4.0 into /usr/local/lib
+163 info installOne gulp-cli@1.4.0
+164 info /usr/local/lib/node_modules/gulp-cli unbuild
+165 verbose tar unpack /home/anna/.npm/gulp-cli/1.4.0/package.tgz
+166 silly lockFile 61ed2849--local-lib-node-modules-gulp-cli tar:///usr/local/lib/node_modules/gulp-cli
+167 verbose lock tar:///usr/local/lib/node_modules/gulp-cli /home/anna/.npm/61ed2849--local-lib-node-modules-gulp-cli.lock
+168 silly lockFile a391f5a2-a-npm-gulp-cli-1-4-0-package-tgz tar:///home/anna/.npm/gulp-cli/1.4.0/package.tgz
+169 verbose lock tar:///home/anna/.npm/gulp-cli/1.4.0/package.tgz /home/anna/.npm/a391f5a2-a-npm-gulp-cli-1-4-0-package-tgz.lock
+170 silly gunzTarPerm modes [ '755', '644' ]
+171 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+171 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+171 error   errno: 3,
+171 error   code: 'EACCES',
+171 error   path: '/usr/local/lib/node_modules',
+171 error   fstream_type: 'Directory',
+171 error   fstream_path: '/usr/local/lib/node_modules/gulp-cli',
+171 error   fstream_class: 'DirWriter',
+171 error   fstream_stack:
+171 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+171 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+171 error      'Object.oncomplete (fs.js:107:15)' ] }
+172 error Please try running this command again as root/Administrator.
+173 error System Linux 3.13.0-37-generic
+174 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "--global" "gulp-cli"
+175 error cwd /home/anna/surfing-project/bootstrap_resources
+176 error node -v v0.10.25
+177 error npm -v 1.3.10
+178 error path /usr/local/lib/node_modules
+179 error fstream_path /usr/local/lib/node_modules/gulp-cli
+180 error fstream_type Directory
+181 error fstream_class DirWriter
+182 error code EACCES
+183 error errno 3
+184 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+185 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+185 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+185 error fstream_stack Object.oncomplete (fs.js:107:15)
+186 verbose exit [ 3, true ]
