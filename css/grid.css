@@ -1,0 +1,76 @@
+div {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 6px;
+}
+
+.row {
+	width: 100%;
+}
+
+.row:after,
+.row:before {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.col-1 {
+	width: 7.142%;
+}
+
+.col-2 {
+	width: 14.284%;
+}
+
+.col-3 {
+	width: 21.426%;
+}
+
+.col-4 {
+	width: 28.568%;
+}
+
+.col-5 {
+	width: 35.71%;
+}
+
+.col-6 {
+	width: 42.852%;
+}
+
+.col-7 {
+	width: 50%;
+}
+
+.col-8 {
+	width: 57.136%;
+}
+
+.col-9 {
+	width: 64.278%;
+}
+
+.col-10 {
+	width: 71.42%;
+}
+
+.col-11 {
+	width: 78.562%;
+}
+
+.col-12 {
+	width: 85.704%;
+}
+
+.col-13 {
+	width: 92.846%;
+}
+
+.col-14 {
+	width: 100%;
+}

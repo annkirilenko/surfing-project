@@ -1,93 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Playfair+Display:400,700|Poppins:300,400,700');
+
 body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	color: #8f8f8f;
+	letter-spacing: 0.1px;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
 }
 
 
-.block-logo img {
-    margin-top: 38px;
+.container {
+	width:1440px;
+	padding: 0 6px;
+	margin:0 auto;
 }
 
-#top-nav {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 10px;
-	text-transform: uppercase;
-	letter-spacing: 6.25px;
-	font-weight: bold;
-	margin-top: 48px;
-	margin-left: 10px;
-}
-
-#top-nav a {
-	color: #0b0c11;
-	padding: .5rem 1.2rem;
-}
-
-
-#top-nav a:hover {
-	text-decoration: none;
-}
-
-.block-slogan {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 10px;
-	text-transform: uppercase;
-	color: #ebebeb;
-	writing-mode: vertical-rl;
-	transform: rotate(180deg);
-	padding-right: 50%;
-    width: 100%;
-    letter-spacing: 6px;
-    margin-top: 48px;
-}
-
-.head-slider-container {
-	margin-top: 40px;
-}
-
-.slide-title {
-	font-family: 'Playfair Display', serif;
-	color: #0b0c11;
-	text-transform: capitalize;
-	font-size: 62px;
-	top: 33%;
-}
-
-.slide-title .small {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 10px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 6.25px;
-	color: #5da8ef;
-	margin-bottom: 30px;
-}
-
-.slide-text {
-	width: 390px;
-	text-align: left;
-	top: 53%;
-}
-
-.slide-image {
+.row {
+	width: 100%;
 	position: relative;
-	margin-right: -17px;
 }
 
-.slide-image img {
-	float: right;
-	box-shadow: #cacaca -9px 12px 51px 11px;
-}
-
-.slide-image:after {
-	display: block;
+.row:after,
+.row:before {
 	content: '';
+	display: block;
 	clear: both;
 }
 
-.slide-title,
-.slide-text {
-	position: absolute;
+.header-col-1 {
+	width: 93%;
+	float: left;
+}
+
+.header-col-2 {
+	width: 7%;
+	float: left;
+}
+
+.top-logo {
+    width: 23%;
+    float: left;
+    padding-left: 102px;
+}
+
+.top-nav {
+    width: 77%;
+    float: left;
+}
+
+.top-bar {
+    padding-top: 38px;
+    height: 127px;
+}
+
+.top-nav nav {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0b0c11;
+    margin: 15px 5px;
+}
+
+.top-nav nav a {
+    text-decoration: none;
+    color: #0b0c11;
+    font-size: 10px;
+    letter-spacing: 5.5px;
+    margin: 0 20px;
+}
+
+.top-nav nav a:first-child {
+    margin-left: 0;
+}
+
+.main-slider {
+    margin: 0 0px 0 102px;
+}
+
+
+.main-slider .slide {
+    position: relative;
+}
+
+.main-slider .slide-text {
+    position: absolute;
+    top: 53%;
+}
+
+.main-slider .slide-title {
+    font-family: 'Playfair Display', serif;
+    color: #0b0c11;
+    text-transform: capitalize;
+    font-size: 62px;
+    font-weight: 700;
+    margin: 0;
+    position: absolute;
+    top: 33%;
+}
+
+.main-slider .slide-title .small {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 7.25px;
+    color: #5da8ef;
+    margin-bottom: 30px;
+}
+
+.main-slider .slide-image {
+    margin-left: 17%;
+    width: 83%;
+}
+
+.slide-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-slider .slide-image img {
+	box-shadow: #cacaca -9px 12px 51px 11px;
+}
+
+.block-slogan {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ebebeb;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    letter-spacing: 6px;
+    margin-top: 54px;
+    width: 100%;
+    padding-right: 40%;
+}
+
+.block-socials {
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+
+.tumblr, .twitter, .vine {
+    display: block;
+    height: 29px;
+    width: 29px;
+    background: url(../img/sprite-icons.png) no-repeat;
+    margin-top: 21px;
+}
+
+.tumblr {
+    background-position: -61px 0px;
+}
+
+.twitter {
+    background-position: -89px 0;
+}
+
+.vine {
+    background-position: -116px 0;
+}
+
+.block-quote {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    margin-top: 176px;
+}
+
+.block-quote .author {
+    font-size: 10px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 5.5px;
+}
+
+.block-quote hr {
+    width: 2px;
+    background: #5da8ef;
+    height: 100px;
+    border: 0;
+    margin-top: 30px;
+}
+
+.block-media {
+    margin: 63px auto 0;
+    width: 85.7%;
+    position: relative;
+}
+
+.block-media .media-photo {
+    width: 50%;
+    float: left;
+}
+
+.media-photo img, .media-video img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+
+.media-photo .media-text {
+    padding: 54px 0 0 117px;
+}
+
+.media-text .read-more {
+    font-family: 'PT Sans',sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    display: block;
+    width: 100px;
+    margin-top: 35px;
+    font-weight: 700;
+    color: #333;
+    border-bottom: 1px solid #8cc1f3;
+    letter-spacing: 5.5px;
+    cursor: pointer;
+}
+
+.block-media .media-video {
+    width: 58%;
+    margin-top: 43px;
+    float: left;
+    margin-left: -8%;
+    position: relative;
+}
+
+.media-video img {
+}
+
+.play-video {
+    position: absolute;
+    background: #5da8ef;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin-top: -34px;
+    margin-left: -34px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.play-video:after {
+    content: '';
+    display: block;
+    height: 29px;
+    width: 29px;
+    background: url(../img/sprite-icons.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -14.5px;
+    margin-left: -14.5px;
+    background-position: -139px 0;
+}
+
+.media-photo img:hover, .media-video img:hover {
+    z-index: 1;
+}
+
+.play-video:hover {
+    background: #3d77c9;
+}
+
+.media-text .read-more:hover {
+    border-bottom: 2px solid #8cc1f3;
 }
