@@ -137,13 +137,18 @@ p {
     font-weight: 700;
     text-transform: uppercase;
     color: #ebebeb;
+    -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
     letter-spacing: 6px;
-    margin-top: 54px;
     width: 100%;
-    padding-right: 40%;
+    padding-right: 40px;
+    position: relative;
+    top: 54px;
+    text-align: right;
 }
+
 
 .block-socials {
     position: absolute;
@@ -285,4 +290,74 @@ p {
 
 .media-text .read-more:hover {
     border-bottom: 2px solid #8cc1f3;
+}
+
+.block-shop {
+    margin-top: 180px;
+}
+
+.block-name {
+    text-align: center;
+    font-family: 'PlayfairDisplay',serif;
+    font-weight: 700;
+    font-size: 42px;
+    padding: 15px 0 0;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.block-name .small {
+    font-size: 10px;
+    font-family: 'PTSans',sans-serif;
+    color: #5da8ef;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.block-shop .product-list {
+    padding: 0 0 15px;
+}
+
+.block-shop .product-list:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.block-shop .product-list .product-item {
+    float: left;
+    width: 33.333%;
+    height: 460px;
+    position: relative;
+}
+
+.product-item .block-parameters, .product-item .block-buy {
+    position: absolute;
+}
+
+.product-item .block-image img {
+	display: block;
+	-webkit-filter: drop-shadow(-3px -30px 30px #ddd);
+	filter: drop-shadow(-3px -30px 30px #ddd);
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -60px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.product-item .block-image {
+    width: 52.54%;
+    background: #ececec; /* Old browsers */
+    background: -moz-linear-gradient(top, #ececec 0%,#ececec 70%, transparent 70%, transparent 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ececec 0%,#ececec 70%, transparent 70%, transparent 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to top, #ececec 0%,#ececec 70%, transparent 70%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#ececec',GradientType=0 );
+    position: relative;
+    height: 100%;
+    text-align: center;
 }
